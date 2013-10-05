@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainGameplayScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\MainGameplayScript.cs" Line="6" Column="31" />
+      <File FileName="Assets\Scripts\MainGameplayScript.cs" Line="80" Column="34" />
+      <File FileName="Assets\Scripts\GolbalVariables.cs" Line="6" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
