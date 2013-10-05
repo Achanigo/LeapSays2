@@ -45,10 +45,21 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GolbalVariables.cs" />
+     <Compile Include="Assets\Scripts\Leap\LeapInput.cs" />
+     <Compile Include="Assets\Scripts\Leap\LeapUnityBridge.cs" />
+     <Compile Include="Assets\Scripts\Leap\LeapUnityExtensions.cs" />
+     <Compile Include="Assets\Scripts\Leap\LeapUnityHandController.cs" />
+     <Compile Include="Assets\Scripts\Leap\LeapUnitySelectionController.cs" />
      <Compile Include="Assets\Scripts\MainGameplayScript.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\InstructionBooklet.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\exitMainMenu.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\instructionsMainMenu.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\leaderboardMainMenu.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\startMainMenu.cs" />
+     <Compile Include="Assets\Scripts\UpdateScore.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>Assets\LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>Assets\Scripts\LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
